@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    name: Primary Replica
+    name: Build
     runs-on: ubuntu-latest
     steps:
       - name: Set up Go 1.x
