@@ -10,7 +10,8 @@ Database Migration utility for Golang.
 
 ## Example 
 
-```gopackage main
+```go
+package main
 
 import (
     "context"
