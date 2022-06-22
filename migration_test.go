@@ -35,7 +35,7 @@ func TestMigration(t *testing.T) {
 					t.ID("id")
 				})
 
-				schema.Do(func(repo rel.Repository) error {
+				schema.Do(func(ctx context.Context, repo rel.Repository) error {
 					assert.NotNil(t, repo)
 					return nil
 				})

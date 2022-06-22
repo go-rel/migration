@@ -158,7 +158,7 @@ func (m *Migration) run(ctx context.Context, migrations []rel.Migration) {
 	adapter := m.repo.Adapter(ctx)
 	for _, migration := range migrations {
 		if fn, ok := migration.(rel.Do); ok {
-			check(fn(m.repo))
+			check(fn(ctx, m.repo))
 		} else {
 			check(adapter.Apply(ctx, migration))
 		}
