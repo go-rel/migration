@@ -5,8 +5,8 @@ github.com/fsnotify/fsnotify v1.4.7/go.mod h1:jwhsz4b93w/PPRr/qN1Yymfu8t87LnFCMo
 github.com/fsnotify/fsnotify v1.4.9 h1:hsms1Qyu0jgnwNXIxa+/V/PDsU6CfLf6CNO8H7IWoS4=
 github.com/fsnotify/fsnotify v1.4.9/go.mod h1:znqG4EE+3YCdAaPaxE2ZRY/06pZUdp0tY4IgpuI1SZQ=
 github.com/go-rel/rel v0.34.0/go.mod h1:YDHtnJhlaiSjANLGiZXvI57jg1amfpJSJlOimq6WJTE=
-github.com/go-rel/rel v0.35.1-0.20220622105908-8347a7decaa8 h1:c+lu89mMX5YT2ECdOtoceMAIARoxr6hm0axwTgATI/M=
-github.com/go-rel/rel v0.35.1-0.20220622105908-8347a7decaa8/go.mod h1:SHjO9VOInj8GD2cTVWmTnOS+rj5IJZoDy8LEyd5oDUQ=
+github.com/go-rel/rel v0.36.0 h1:GgKB+0btoZVQ+6YBboPJvRksNtbMJOTv+iMO79t+QMo=
+github.com/go-rel/rel v0.36.0/go.mod h1:SHjO9VOInj8GD2cTVWmTnOS+rj5IJZoDy8LEyd5oDUQ=
 github.com/go-rel/reltest v0.9.0 h1:OTBY2dD/hNXaH5r1XXIHRdni6QGCmFaQm1pFAFkg1ok=
 github.com/go-rel/reltest v0.9.0/go.mod h1:Eu1JNASF6TfiktPlmvWEYHp+UejmGl9MmKRWieHxkXo=
 github.com/golang/protobuf v1.2.0/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
