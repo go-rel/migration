@@ -219,7 +219,7 @@ func TestMigration_Instrumentation(t *testing.T) {
 		m    = New(repo)
 	)
 
-	m.Instrumentation(func(context.Context, string, string) func(error) { return nil })
+	m.Instrumentation(func(context.Context, string, string, ...interface{}) func(error) { return nil })
 	m.instrumenter.Observe(ctx, "test", "test")
 }
 
