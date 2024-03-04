@@ -3,9 +3,9 @@ module github.com/go-rel/migration
 go 1.19
 
 require (
-	github.com/go-rel/rel v0.41.0
+	github.com/go-rel/rel v0.42.0
 	github.com/go-rel/reltest v0.12.0
-	github.com/stretchr/testify v1.8.4
+	github.com/stretchr/testify v1.9.0
 )
 
 require (
