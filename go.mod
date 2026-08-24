@@ -3,7 +3,7 @@ module github.com/go-rel/migration
 go 1.21
 
 require (
-	github.com/go-rel/rel v0.42.0
+	github.com/go-rel/rel v0.43.0
 	github.com/go-rel/reltest v0.12.0
 	github.com/stretchr/testify v1.12.1
 )
